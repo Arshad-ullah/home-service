@@ -46,9 +46,7 @@ class _SignUpState extends State<SignUp> with SingleTickerProviderStateMixin {
           .whenComplete(() {
         _addData();
       });
-    } catch (e) {
-      print(e);
-    }
+    } catch (e) {}
   }
 
   void _addData() async {
